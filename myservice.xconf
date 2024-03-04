@@ -1,6 +1,5 @@
 <!DOCTYPE Configuration SYSTEM "xconf.dtd">
 <Configuration targetFile="codebase/wt.properties">
-
-	<!-- Listener -->
+    <!-- Listener -->
     <Property name="wt.services.service.999999" overridable="true" value="com.ttpsc.academy.server.listener.AcademyListenerService/com.ttpsc.academy.server.listener.StandardAcademyListenerService"/>
 </Configuration>
