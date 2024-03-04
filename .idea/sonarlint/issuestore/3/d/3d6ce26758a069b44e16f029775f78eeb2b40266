@@ -1,0 +1,16 @@
+
+a	java:S112¢"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+z
+java:S1488²"cImmediately return this expression instead of assigning it to the temporary variable "wtArrayList".(ÉÇ˜½
+z
+java:S1488î"cImmediately return this expression instead of assigning it to the temporary variable "wtArrayList".(ßÒæ–
+X
+java:S4973…"<Strings and Boxed types should be compared using "equals()".(ïåŠþÿÿÿÿ
+R
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ê³ö
+W	java:S125µ"<This block of commented-out lines of code should be removed.(šŒâüúÿÿÿÿ
+Z
+java:S1854…"CRemove this useless assignment to local variable "latestIteration".(âƒ¦
+K
+java:S1481…"4Remove this unused "latestIteration" local variable.(âƒ¦
+A	java:S106ž"+Replace this use of System.out by a logger.(ý³ÓÆ

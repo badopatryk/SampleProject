@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE NmLoader SYSTEM "standardX10.dtd">
+
+<NmLoader>
+
+	<csvPreferenceCategory handler="wt.preference.LoadPreference.createPreferenceCategory">
+		<csvname>CUSTOM_PART_PREFERENCE_NODE</csvname>
+		<csvparentName>PART_MANAGEMENT</csvparentName>
+		<csvdisplayName>Custom Part preference node</csvdisplayName>
+		<csvdescription>Part preferences</csvdescription>
+	</csvPreferenceCategory>
+	
+	<csvPreferenceDefinition handler="wt.preference.LoadPreference.createPreferenceDefinition">
+	    <csvname>/com/ttpsc/academy/partName</csvname>
+	    <csvvisibility>SITE</csvvisibility>
+	    <csvcategoryName>CUSTOM_PART_PREFERENCE_NODE</csvcategoryName>
+	    <csvdisplayName>Part Name</csvdisplayName>
+	    <csvdescription>Part name used for creation</csvdescription>
+	    <csvlongDescription>Part name used for creation</csvlongDescription>
+	    <csvdefaultValue>ACADEMY_PART</csvdefaultValue>
+	    <csvhandler>com.ptc.windchill.enterprise.preference.handler.StringPreferenceValueHandler</csvhandler>
+	</csvPreferenceDefinition>
+	
+
+	<csvLinkPreferenceClientDefinition handler="wt.preference.LoadPreference.setClientDefinitionLink">
+	    <csvname>/com/ttpsc/academy/partName</csvname>
+	    <csvclientName>WINDCHILL</csvclientName>
+	</csvLinkPreferenceClientDefinition>
+
+	<csvPreferenceDefinition handler="wt.preference.LoadPreference.createPreferenceDefinition">
+		<csvname>/com/ttpsc/academy/partName2</csvname>
+		<csvvisibility>SITE</csvvisibility>
+		<csvcategoryName>CUSTOM_PART_PREFERENCE_NODE</csvcategoryName>
+		<csvdisplayName>com.ttpsc.academy.server.bundle.AcademyRB:PART_VIEW_INVALID2.displayname</csvdisplayName>
+		<csvdescription>com.ttpsc.academy.server.bundle.AcademyRB:PART_VIEW_INVALID2.description</csvdescription>
+		<csvlongDescription>Part name used for creation</csvlongDescription>
+		<csvdefaultValue>ACADEMY_PART</csvdefaultValue>
+		<csvhandler>com.ptc.windchill.enterprise.preference.handler.StringPreferenceValueHandler</csvhandler>
+	</csvPreferenceDefinition>
+
+
+	<csvLinkPreferenceClientDefinition handler="wt.preference.LoadPreference.setClientDefinitionLink">
+		<csvname>/com/ttpsc/academy/partName2</csvname>
+		<csvclientName>WINDCHILL</csvclientName>
+	</csvLinkPreferenceClientDefinition>
+</NmLoader>
